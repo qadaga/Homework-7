@@ -1,0 +1,190 @@
+.container {
+    display: flex;
+    align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 26px;
+    color:   #A80000;
+}
+
+.titles {
+    display: flex;
+    justify-content: space-between;
+    width: 649px;
+    font-size: 21px;
+}
+
+.titles:first-child {
+    border-bottom: 3px solid #2C2C2C;
+}
+
+.simboles {
+    width: 195px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+svg {
+    background-color: #F1F1F1;
+    padding: 9px;
+    border-radius: 50%;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 145px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 795px;
+}
+
+h3 {
+
+    font-size: 24px;
+}
+
+h2 {
+    color: #A80000;
+    font-size: 100px;
+    margin: 0;
+}
+
+.line {
+    height: 2px;
+    width: 587px;
+    background-color: #D9D9D9;
+    margin: 50px 0;
+}
+
+.radio:first-child {
+    width: 31px;
+}
+
+.radio {
+    margin-top: 50px;
+}
+
+.first-button {
+    border: none;
+    font-size: 17px;
+    color: white;
+    background-color: #A80000;
+width: 210px;
+height: 50px;
+border-radius: 19%;
+}
+
+.second-button {
+    border: none;
+    font-size: 17px;
+    color: white;
+    background-color: #2C2C2C;
+width: 210px;
+height: 50px;
+margin-left: 18px;
+border-radius: 19%;
+}
+
+img {
+    width: 721px;
+}
+
+.photo {
+    position: relative;
+} 
+
+.circles {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+  bottom: 20px ;
+  right: 0;
+} 
+
+
+.first-circle {
+    background-color: #FF1515;
+    width: 30px;
+    height: 30px;   
+    border-radius: 50%;
+    margin-bottom: 17px;
+}
+
+.second-circle {
+    width: 30px;
+    height: 30px;   
+    border-radius: 50%;
+    background-color: #2C2C2C;
+}
+
+.third-circle {
+    width: 30px;
+    height: 30px;   
+    border-radius: 50%;
+    background-color: #2C2C2C;
+    margin: 17px 0;
+}
+
+.fourth-circle {
+    width: 30px;
+    height: 30px;   
+    border-radius: 50%;
+    background-color: #2C2C2C;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+}
+
+.lookbook {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;   
+    border-radius: 50%;
+    background-color: #2C2C2C;
+}
+
+h6 {
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+.pricebox {
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    width: 400px;
+    height: 130px;
+    background-color: #D9D9D9;
+}
+
+
+
+h5 {
+    font-size: 30px;
+}
